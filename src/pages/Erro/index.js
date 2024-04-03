@@ -4,8 +4,8 @@ import './erro.css';
 function Erro(){
   return(
     <div className="not-found">
-      <h1>415</h1>
-      <h2>Pagina não encontrada!</h2>
+      <h1>500</h1>
+      <h2>Api não encontrada</h2>
       <Link to="/">Veja todos filmes!</Link>
     </div>
   )
